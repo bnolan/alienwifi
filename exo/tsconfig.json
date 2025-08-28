@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+      "types": ["@webgpu/types"],
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tau Ceti Spectrogram</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    canvas {
+      display: block;
+      width: 512px;
+      height: 512px;
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+  <main>
+  <canvas id="spectrogram" width="512" height="512"></canvas>
+  <canvas id="debug" width="512" height="512"></canvas>
+  </main>
+  
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
+

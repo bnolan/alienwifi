@@ -1,0 +1,25 @@
+{
+  "name": "exo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "esbuild main.ts --bundle --outfile=dist/main.js --format=esm --sourcemap --watch=forever & tsx server.ts",
+    "build": "esbuild main.ts --bundle --outfile=dist/main.js --format=esm --minify",
+    "server": "tsx server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@webgpu/types": "^0.1.64",
+    "concurrently": "^9.2.1",
+    "esbuild": "^0.25.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "tsx": "^4.20.5"
+  }
+}
