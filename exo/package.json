@@ -2,7 +2,7 @@
   "name": "exo",
   "version": "1.0.0",
   "scripts": {
-    "dev": "esbuild main.ts --bundle --outfile=dist/main.js --format=esm --sourcemap --watch=forever & tsx server.ts",
+    "dev": "esbuild main.ts --bundle --outfile=dist/main.js --format=esm --sourcemap --watch=forever & tsx watch server.ts",
     "build": "esbuild main.ts --bundle --outfile=dist/main.js --format=esm --minify",
     "server": "tsx server.ts"
   },
